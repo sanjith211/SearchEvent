@@ -1,0 +1,94 @@
+.container {
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.searchEvent {
+    height: 6%;
+    display: flex;
+    border: 1px solid black;
+    margin: 30px 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.event-container {
+    height: 47%;
+    /* padding: 1em; */
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.event {
+    height: 260px;
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.event-header {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-body {
+    height: 90%;
+    display: flex;
+}
+
+.body-left {
+    width: 40%;
+    margin: 30px 10px;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.left-image {
+    height: 65%;
+    width: 125%;
+    background-color: orange;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-right {
+    width: 60%;
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.date {
+    display: flex;
+    /* padding: 2em; */
+    justify-content: center;
+    align-items: center;
+}
+
+.availableSeat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
